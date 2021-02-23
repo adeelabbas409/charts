@@ -3,10 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MixChart from './mixChart';
+import StackDotChart from './stackDotChart';
+import CustomShapes from './customeShaps';
+import FusionChartApp from './fusionChart'
+import FustionMultiSeries from './fusionChartMultiSeries';
+import RechartApp from './rechart';
+import StackedLineFusion from './stackedLine';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <RechartApp/> */}
+    <StackedLineFusion/>
+    {/* <FustionMultiSeries/> */}
+    {/* <FusionChartApp /> */}
+    
+    {/* <App /> */}
+    {/* <MixChart/> */}
+    {/* <CustomShapes/> */}
+    {/* <StackDotChart/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
